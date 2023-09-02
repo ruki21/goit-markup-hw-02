@@ -1,0 +1,125 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #2c2a3d;
+    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+
+    color: #0734a6;
+
+}
+
+
+
+ul li {
+    list-style: none;
+}
+
+.footer {
+    background-color: #2c2a3d;
+
+    text-decoration: none;
+
+
+}
+
+.par-footer {
+
+    color: #FFFFFF;
+}
+
+.foot-logo {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo-class,
+.address-class,
+.link-class {
+    text-decoration: none;
+
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    color: #FFFFFF;
+    background: #4542d4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+
+    position: absolute;
+    left: 0.5%;
+    top: 39%;
+}
+
+
+
+
+.address-class,
+.logo-class,
+.link-class {
+    color: black;
+}
+
+.link-class:active {
+    color: #0734a6;
+}
+
+.link-class,
+.address-class:visited {
+    color: red;
+}
+
+.link-class,
+.address-class:hover {
+    color: purple;
+}
+
+
+.teams {
+    background-color: #f2f0f5;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo-class {
+    font-family: 'Raleway', sans-serif;
+}
+
+.desc-class,
+.teams-profile {
+    text-align: center;
+}
+
+.address-class {
+    font-style: normal;
+}
+
+.content-class {
+    line-height: 30px;
+}
