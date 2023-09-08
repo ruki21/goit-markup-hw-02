@@ -32,14 +32,27 @@ body {
 
 
 .logo-class {
-    font-family: 'Raleway', sans-serif;
+    color: var(--navyblue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
-span {
-
-    color: #0734a6;
-    font-family: 'Raleway';
-
+.iris {
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercas
 }
 
 
@@ -112,9 +125,7 @@ button {
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    position: absolute;
-    bottom: 230px;
+    background: var(--iris);
 
 }
 
@@ -170,7 +181,7 @@ button {
 }
 
 .content-class {
-    color: var(--SLATE, #434455);
+    color: var(--slate);
 
     /* Body */
     ;
@@ -183,7 +194,7 @@ button {
 }
 
 .section-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--navyblue);
     text-align: center;
 
     /* Header 2 */
@@ -216,7 +227,7 @@ button {
 }
 
 .footer-class {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--cloud);
     /* Body */
     font-family: Roboto;
     font-size: 16px;
